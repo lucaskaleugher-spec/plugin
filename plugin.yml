@@ -1,0 +1,12 @@
+name: SwordMaceHybrid
+version: 1.0.0
+main: com.example.swordmace.SwordMaceHybrid
+api-version: 1.21
+commands:
+  giveswordmace:
+    description: Gives the special Sword/Mace hybrid weapon.
+    usage: /giveswordmace <player>
+    permission: swordmace.give
+permissions:
+  swordmace.give:
+    default: op
